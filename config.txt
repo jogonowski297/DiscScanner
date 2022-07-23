@@ -1,0 +1,11 @@
+### Delete files and folders ###
+# Końcówki lub pelne nazwy folderów do usuniecia # (np. XXX-00001-X_buckup -> "_buckup$" (ciag znakow konczacy sie na _backup)
+"_backup$",,,"Revit_temp"
+# Końcówki lub pelne nazwy i rozszerzenia plików do usuniecia # (np. XXX-00001-MO.0111.rvt -> "\.[\d][\d][\d][\d]\.rvt" (.2137.rvt)
+"\.[\d][\d][\d][\d]\.rvt$",,,"\.bak",,,"\.[\d][\d][\d][\d]\.rfa$"
+# Pomiń katalogi
+"@Recently-Snapshot",,,"@Recycle",,,"_backup$",,,"Revit_temp"
+# Ilość dni (ile dni musi mieć plik/katalog aby został usunięty)
+0
+# Dysk lub katalog który ma zostać przeskanowany #
+D:\PythonProjects\GITHUB\DiscScanner
