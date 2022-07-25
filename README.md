@@ -5,7 +5,7 @@ Disc Scanner to program stworzony z myślą o zwalnianiu miejsca z dysków poprz
 
 
 
-Przechodzi on przez wszystkie elementy w danym dysku i usuwa tyle te które zostały dodane do pliku config.
+Przechodzi on przez wszystkie elementy w danym dysku i usuwa tyle te które zostały dodane do pliku config. Następnie dodaje do bazy danych (dane.db) wszystkie potrzebne informacje o usuniętym pliku/ katalogu.
 
 # Plik config
 Do config.txt dodajemy
