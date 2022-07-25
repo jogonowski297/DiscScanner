@@ -14,6 +14,7 @@ Do config.txt dodajemy
 - 7 wiersz - katalogi które mają zostać pominięte podczas skanowania dysku
 - 9 wiersz - ilość dni (int) które musi mieć plik aby został usunięty
 - 11 wiersz - ścieżka do dysku
+
 Aby dodać więcej niż jeden element oddzielamy go potrójnym przecinkiem (",,,")
 
 
